@@ -1,4 +1,76 @@
+/*this is a comment*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#the-one {
+  color: black;
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  background-color: lightgray;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/isla_280x280.48306524_gmohvqu8.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1 {
-  color: red;
-  background-color: yellow;
+  color: green;
+  background-color: lightgray;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-left: 0.5;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  /*letter-spacing: -0.2rem;*/
+  word-spacing: 0.3rem;
+  margin-left: 0.5;
+}
+
+/*mak image responsive*/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+  background-color: lightgray;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: #ff1054;
+  background-color: coral;
+}
+.new-color {
+  color: #d1f425;
+  background-color: #0d6c6e;
+}
+.box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
+}
+.standard-box {
+  box-sizing: content-box;
+}
+.border-box {
+  background-color: pink;
+  padding: 10px 20px 30px 20px;
 }
