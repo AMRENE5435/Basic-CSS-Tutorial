@@ -18,8 +18,8 @@ body {
   background-color: lightgray;
   max-width: 1000px;
   margin: 0 auto;
-  background-image: url("/img/isla_280x280.48306524_gmohvqu8.webp");
-  background-repeat: no-repeat;
+  background-image: url("../img/isla_280x280.48306524_gmohvqu8.webp");
+  background-repeat: repeat;
   background-position: center;
 }
 
